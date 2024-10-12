@@ -105,3 +105,21 @@ label {
   padding: 1rem 2rem;
   color: #a6a6a6;
 }
+
+.form-check-input {
+  margin-top: 1rem;
+  border-radius: 0px !important;
+  padding: 5px;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+}
+.accordion-item {
+  border: none !important;
+  color: black !important;
+}
+.accordion-button {
+  border: none !important;
+  border-bottom: 1px solid black !important;
+  background: white !important;
+  color: black !important;
+}

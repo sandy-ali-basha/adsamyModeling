@@ -38,7 +38,7 @@
     ></nav>
     <!-- --Navbar Include -->
     <main>
-      <h1 class="py-5 fs-1">APPLY NOW</h1>
+      <h1 class="py-5 fs-1 text-center fw-bold">APPLY NOW</h1>
       <div class="container">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
@@ -108,17 +108,20 @@
                     />
                   </div>
                   <div class="col-md-6">
+                    <input class="custom_input" type="date" id="Date" />
+                  </div>
+                  <div class="col-md-6">
                     <input
                       class="custom_input"
-                      type="date"
-                      id="Date"
-                      placeholder="Gender"
+                      type="text"
+                      id="NATIONALITY"
+                      placeholder="NATIONALITY"
                     />
                   </div>
                   <div class="col-md-6">
                     <input
                       class="custom_input"
-                      type="date"
+                      type="text"
                       id="Ethnicity"
                       placeholder="Ethnicity"
                     />
@@ -127,8 +130,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="accordion" id="accordionExample">
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button
@@ -196,8 +198,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="accordion" id="accordionExample">
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button
@@ -241,8 +242,7 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="accordion" id="accordionExample">
+
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button
@@ -281,6 +281,96 @@
                         MODEL
                       </label>
                     </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckCheckedDisabled"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexCheckCheckedDisabled"
+                      >
+                        LIFESTYLE
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckCheckedDisabled"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexCheckCheckedDisabled"
+                      >
+                        CAST
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckCheckedDisabled"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexCheckCheckedDisabled"
+                      >
+                        STYLE
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckCheckedDisabled"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexCheckCheckedDisabled"
+                      >
+                        STYLIST
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckCheckedDisabled"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexCheckCheckedDisabled"
+                      >
+                        HAIR & MAKEUP
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckCheckedDisabled"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexCheckCheckedDisabled"
+                      >
+                        PHOTOGRAPHERS
+                      </label>
+                    </div>
                   </div>
                   <div class="col-md-6">
                     <label for="role"
@@ -293,7 +383,109 @@
               </div>
             </div>
           </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Enter your showreel URL (YOUTUBE, VIMEO, etc)
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <input
+                      class="custom_input"
+                      type="text"
+                      name="Showreel URL"
+                      id="Showreel URL"
+                      placeholder="Showreel URL"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Enter your Instagram URL (if you have one)
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="row">
+                  <div class="col-md-12">
+                    <input
+                      class="custom_input"
+                      type="text"
+                      name="Instagram URL"
+                      id="Instagram URL"
+                      placeholder="Instagram URL"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckCheckedDisabled"
+            checked
+          />
+          <label class="form-check-label" for="flexCheckCheckedDisabled">
+            Please select the check box if you agree to our
+            <a
+              href="http://"
+              class="fw-bold"
+              target="_blank"
+              class="text-black"
+              rel="noopener noreferrer"
+              >Terms and Conditions</a
+            >
+          </label>
+        </div>
+      </div>
+      <div class="d-flex justify-content-evenly my-4">
+        <button
+          class="btn rounded-0 text-white bg-black px-4 py-1 fw-bold fs-3"
+        >
+          submit
+        </button>
+        <button
+          class="btn rounded-0 text-white bg-black px-4 py-1 fw-bold fs-3"
+        >
+          VIP SUBMIT
+        </button>
       </div>
     </main>
     <!-- Footer Include -->
