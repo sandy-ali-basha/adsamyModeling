@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- for social media sharing links  -->
+    <meta name="theme-color" content="#439299" />
+    <meta property="og:description" content="description" />
+    <meta property="og:title" content="Adsamy" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="website link" />
+    <meta property="og:image" content="website image" />
+    <!-- bootstrap  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- scss -->
+    <link rel="stylesheet" href="./scss/main.css" />
+
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>ADSAMY</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+  <body id="app" style="background: #1A1A1A;">
+    <!-- Navbar Include -->
+    <nav
+      class="navbar sticky-top navbar-expand-lg bg-dark-blue text-white py-2"
+      id="navbar_container"
+    ></nav>
+    <!-- --Navbar Include -->
+    <header class="bg-black ">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./imgs/profile.jpeg" class="w-100" alt="" />
+        </div>
+        <div class="col-md-6 py-5">
+          <h2 class="text-white border-bottom border-secondary w-25">Name</h2>
+          <div class="row border-bottom border-secondary py-3">
+            <div class="col-md-3 text-white d-inline-flex gap-2">
+              <div class="light">Height</div>
+              <div class="bold fw-bold">179cm</div>
+            </div>
+            <div class="col-md-3 text-white d-inline-flex gap-2">
+              <div class="light">Bust</div>
+              <div class="bold fw-bold">83cm</div>
+            </div>
+            <div class="col-md-3 text-white d-inline-flex gap-2">
+              <div class="light">Waist</div>
+              <div class="bold fw-bold">58cm</div>
+            </div>
+            <div class="col-md-3 text-white d-inline-flex gap-2">
+              <div class="light">Hip</div>
+              <div class="bold fw-bold">90cm</div>
+            </div>
+            <div class="col-md-3 text-white d-inline-flex gap-2">
+              <div class="light">Shoe</div>
+              <div class="bold fw-bold">39</div>
+            </div>
+            <div class="col-md-3 text-white d-inline-flex gap-2">
+              <div class="light">Dress</div>
+              <div class="bold fw-bold">4 US / 8 UK / 36 EU</div>
+            </div>
+            <div class="col-md-3 text-white d-inline-flex gap-2">
+              <div class="light">Hair</div>
+              <div class="bold fw-bold">Brown</div>
+            </div>
+            <div class="col-md-3 text-white d-inline-flex gap-2">
+              <div class="light">Eyes</div>
+              <div class="bold fw-bold">Brown</div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <div class="col-4 d-flex gap-2 align-items-center">
+              <i class="text-white fa-regular fa-copy "></i>
+              <div class="text-white">Portfolio</div>
+            </div>
+            <div class="col-4 d-flex gap-2 align-items-center">
+              <i class="text-white fa-solid fa-film"> </i>
+              <div class="text-white">video</div>
+            </div>
+            <div class="col-4 d-flex gap-2 align-items-center">
+              <i class="text-white fa-solid fa-print"></i>
+              <div class="text-white">print</div>
+            </div>
+            <div class="col-4 d-flex gap-2 align-items-center">
+              <i class="text-white fa-regular fa-copy "></i>
+              <div class="text-white">Polaroids</div>
+            </div>
+            <div class="col-4 d-flex gap-2 align-items-center">
+              <i class="text-white fa-regular fa-envelope"></i>
+              <div class="text-white">Share</div>
+            </div>
+          </div>
+          <div class="row py-3">
+            <div class="col-md-6 px-2">
+              <img src="./imgs/image23.png" class="w-100" alt="" />
+            </div>
+            <div class="col-md-6 px-2">
+              <img src="./imgs/image32.png" class="w-100" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-4 ">
+        <div class="col-md-3 pb-4">
+          <img
+            src="./imgs/image32.png"
+            class="w-100 vh-50"
+            style="object-fit: cover;"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3 pb-4">
+          <img
+            src="./imgs/image32.png"
+            class="w-100 vh-50"
+            style="object-fit: cover;"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3 pb-4">
+          <img
+            src="./imgs/image32.png"
+            class="w-100 vh-50"
+            style="object-fit: cover;"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3 pb-4">
+          <img
+            src="./imgs/image32.png"
+            class="w-100 vh-50"
+            style="object-fit: cover;"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3 pb-4">
+          <img
+            src="./imgs/image32.png"
+            class="w-100 vh-50"
+            style="object-fit: cover;"
+            alt=""
+          />
+        </div>
+        <div class="col-md-6 pb-4">
+          <img
+            src="./imgs/image32.png"
+            class="w-100 vh-50"
+            style="object-fit: cover;"
+            alt=""
+          />
+        </div>
+        <div class="col-md-3 pb-4">
+          <img
+            src="./imgs/image32.png"
+            class="w-100 vh-50"
+            style="object-fit: cover;"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+
+
+    <!-- Footer Include -->
+    <footer
+      class="text-center  mt-0 text-lg-start text-white"
+      style="background: linear-gradient(180deg, #201F34 0%, #12111F 100%);"
+      id="footer_container"
+    ></footer>
+
+    <script src="./js/vueScript.js"></script>
+    <!-- --Footer Include -->
+
+    <!-- jquery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/5b9061b1a3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/isotope.js"></script>
+    <!-- dynamic load fixed parts -->
+    <script src="./js/load_fixed_parts.js" crossorigin="anonymous"></script>
+    <script>
+      var agancySwiper = new Swiper(".agancy-swiper", {});
+    </script>
+  </body>
+</html>

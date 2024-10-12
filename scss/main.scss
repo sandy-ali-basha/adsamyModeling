@@ -1,0 +1,107 @@
+@import "./breakpoints", "./colors", "../fonts/Poppins/stylesheet.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  //   border: 1px solid red;
+  font-family: "Inter", sans-serif;
+  transition: all 0.5s;
+  accent-color: #172b43;
+}
+.kaushanScript {
+  font-family: "KaushanScript";
+  font-weight: 400;
+  font-style: normal;
+}
+
+.text-yellow {
+  color: #fdd306;
+}
+.text-pink {
+  color: #ff0086;
+}
+.navigateBtns {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(64, 84, 178, 0.29) 100%
+  );
+  backdrop-filter: blur(5px);
+  .nav-link {
+    border-radius: 0px;
+  }
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ffffff56 !important;
+}
+
+.bg-dark-blue {
+  background: #12111f;
+}
+.btn-pink {
+  background: $pink;
+  color: white;
+  &:hover {
+    color: white;
+    opacity: 0.9;
+  }
+}
+.vh-75 {
+  height: 75vh;
+}
+.vw-5 {
+  width: 5vw;
+}
+.bg-dark {
+  background: #1a1a1a;
+}
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.border-pink {
+  border-color: $pink !important;
+}
+.TopModels-image-card {
+  width: calc(100% / 7);
+}
+
+.bg-black {
+  background: black;
+}
+.vh-35 {
+  height: 35vh;
+}
+.ourServices {
+  background: #000000 url("../imgs/background.png") no-repeat;
+  background-size: 100%;
+}
+.flip {
+  transform: scaleX(-1);
+}
+.bg-pink {
+  background: $pink;
+}
+.vh-50 {
+  height: 50vh;
+}
+.custom_input {
+  border: 1px solid #878787;
+  font-weight: bold;
+  color: #a6a6a6;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  padding: 1rem 2rem;
+  color: #a6a6a6;
+}
