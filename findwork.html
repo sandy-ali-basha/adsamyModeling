@@ -132,7 +132,7 @@
           </div>
 
           <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+            <h2 class="accordion-header" id="heading2">
               <button
                 class="accordion-button"
                 type="button"
@@ -380,75 +380,87 @@
                     <textarea name="" id="" class="custom_input"></textarea>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                Enter your showreel URL (YOUTUBE, VIMEO, etc)
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
                 <div class="row">
-                  <div class="col-md-12">
+                  <div class="col-md-12 border-top py-3">
+                    <label for="" class="text-black ps-0"
+                      >Enter your showreel URL (YOUTUBE, VIMEO, etc)</label
+                    >
                     <input
-                      class="custom_input"
+                      class="custom_input mb-2"
                       type="text"
                       name="Showreel URL"
                       id="Showreel URL"
                       placeholder="Showreel URL"
                     />
                   </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="true"
-                aria-controls="collapseOne"
-              >
-                Enter your Instagram URL (if you have one)
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse show"
-              aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <div class="row">
-                  <div class="col-md-12">
-                    <input
-                      class="custom_input"
-                      type="text"
-                      name="Instagram URL"
-                      id="Instagram URL"
-                      placeholder="Instagram URL"
-                    />
+                  <div class="row">
+                    <div class="col-md-12 border-top py-3">
+                      <label for="" class="text-black ps-0"
+                        >Enter your Instagram URL (if you have one)</label
+                      >
+                      <input
+                        class="custom_input mb-2"
+                        type="text"
+                        name="Instagram URL"
+                        id="Instagram URL"
+                        placeholder="Instagram URL"
+                      />
+                    </div>
                   </div>
+                  <section class="border-top py-3">
+                    <label for=""
+                      >Upload Pictures PLEASE UPLOAD 3 OR 4 PHOTO'S WITH SIMULAR
+                      PROFILES TO THE BELOW SAMPLES</label
+                    >
+                    <div class="row">
+                      <div class="col-md-4">
+                        <img
+                          src="./imgs/uploadSample/img1.jpeg"
+                          class="w-100"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-4">
+                        <img
+                          src="./imgs/uploadSample/img2.jpeg"
+                          class="w-100"
+                          alt=""
+                        />
+                      </div>
+                      <div class="col-md-4">
+                        <img
+                          src="./imgs/uploadSample/img3.jpeg"
+                          class="w-100"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div
+                      class="alert alert-warning color-black fw-bold mt-3 alert-dismissible"
+                    >
+                      Please note that only JPG and JPEG files are allowed with
+                      a maximum size of 10 MB.
+                      <button
+                        type="button"
+                        class="btn-close fs-6"
+                        data-bs-dismiss="alert"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <label
+                      for="uploadSample"
+                      class="bg-secondary w-100 rounded-0 p-0 d-flex justify-content-center gap-3 flex-column align-items-center p-5"
+                    >
+                      <i class="fa-solid fa-plus fs-3"></i>
+                      <div class="fw-bold fs-3">Add Picture</div>
+                    </label>
+                    <input
+                      type="file"
+                      name="uploadSample"
+                      id="uploadSample"
+                      class="d-none"
+                    />
+                  </section>
                 </div>
               </div>
             </div>
