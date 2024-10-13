@@ -135,6 +135,10 @@ label {
   font-size: 1.4rem;
 }
 
+.form-check-input[type=radio] {
+  border-radius: 50px !important;
+}
+
 .accordion-item {
   border: none !important;
   color: black !important;
@@ -149,4 +153,12 @@ label {
 
 img:hover {
   scale: 1.02;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-secondary {
+  color: #a7a3b5 !important;
 }/*# sourceMappingURL=main.css.map */
