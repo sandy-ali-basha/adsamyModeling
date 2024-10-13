@@ -80,6 +80,11 @@
 .TopModels-image-card {
   width: 14.2857142857%;
 }
+@media (max-width: 449px) {
+  .TopModels-image-card {
+    width: 25%;
+  }
+}
 
 .bg-black {
   background: black;
