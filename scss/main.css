@@ -161,4 +161,16 @@ img:hover {
 
 .text-secondary {
   color: #a7a3b5 !important;
+}
+
+.rounded {
+  border-radius: 30px !important;
+}
+
+.bg-light-pink {
+  background: rgba(255, 0, 134, 0.1490196078);
+}
+
+a {
+  color: rgba(2, 9, 18, 0.8509803922);
 }/*# sourceMappingURL=main.css.map */
