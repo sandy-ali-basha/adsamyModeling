@@ -36,7 +36,6 @@ $(document).ready(function () {
 $('.filters a').click(function () {
     $('.filters a').removeClass('PSectionActive');
     $(this).addClass('PSectionActive');
-
     var data = $(this).attr('data-filter');
     $grid.isotope({
         filter: data

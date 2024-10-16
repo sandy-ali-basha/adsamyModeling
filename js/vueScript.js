@@ -10,24 +10,13 @@ createApp({
   data() {
     return {
       items: [
-        { image: "./imgs/image11.png", text: "Item 11" },
-        { image: "./imgs/image10.png", text: "Item 10" },
-        { image: "./imgs/image12.png", text: "Item 12" },
-        { image: "./imgs/image8.png", text: "Item 8" },
-        { image: "./imgs/image7.png", text: "Item 7" },
-        { image: "./imgs/image6.png", text: "Item 6" },
-        { image: "./imgs/image5.png", text: "Item 5" },
-        { image: "./imgs/image4.png", text: "Item 4" },
-        { image: "./imgs/image3.png", text: "Item 3" },
-        { image: "./imgs/image2.png", text: "Item 2" },
-        { image: "./imgs/image1.png", text: "Item 1" },
-        { image: "./imgs/image.png", text: "Item " },
+        { image: "./imgs/image (3).png", text: "Item 11", btn: "film crew" },
+        { image: "./imgs/image (2).png", text: "Item 10", btn: "film crew" },
+        { image: "./imgs/image (4).png", text: "Item 12", btn: "film crew" },
+        { image: "./imgs/image (5).png", text: "Item 8", btn: "film crew" },
+        { image: "./imgs/image (4).png", text: "Item 7", btn: "film crew" },
       ],
       TopModels: [
-        { image: "./imgs/image11.png", text: "Item 11" },
-        { image: "./imgs/image10.png", text: "Item 10" },
-        { image: "./imgs/image12.png", text: "Item 12" },
-        { image: "./imgs/image8.png", text: "Item 8" },
         { image: "./imgs/image7.png", text: "Item 7" },
         { image: "./imgs/image6.png", text: "Item 6" },
         { image: "./imgs/image5.png", text: "Item 5" },
@@ -362,36 +351,36 @@ createApp({
       ],
       HighRatedModels: [
         {
-          image: "./imgs/topModals/image0.jpeg",
+          image: "./imgs/pngimg (1).png",
           title: "Natacha",
         },
         {
-          image: "./imgs/topModals/image1.jpeg",
+          image: "./imgs/pngimg (2).png",
           title: "Selim",
         },
         {
-          image: "./imgs/topModals/image0.jpeg",
+          image: "./imgs/pngimg (3).png",
           title: "Natacha",
         },
         {
-          image: "./imgs/topModals/image1.jpeg",
-          title: "Selim",
-        },
-        {
-          image: "./imgs/topModals/image0.jpeg",
+          image: "./imgs/pngimg.png",
           title: "Natacha",
         },
         {
-          image: "./imgs/topModals/image1.jpeg",
-          title: "Selim",
-        },
-        {
-          image: "./imgs/topModals/image0.jpeg",
+          image: "./imgs/pngimg (1).png",
           title: "Natacha",
         },
         {
-          image: "./imgs/topModals/image1.jpeg",
+          image: "./imgs/pngimg (2).png",
           title: "Selim",
+        },
+        {
+          image: "./imgs/pngimg (3).png",
+          title: "Natacha",
+        },
+        {
+          image: "./imgs/pngimg.png",
+          title: "Natacha",
         },
       ],
       events: [

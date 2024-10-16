@@ -67,9 +67,15 @@
   border-color: $pink !important;
 }
 .TopModels-image-card {
-  width: calc(100% / 7);
+  width: calc(100% / 5) !important;
+  @include media("<=tablet") {
+    width: calc(100% / 3) !important;
+  }
   @include media("<phone") {
-    width: calc(100% / 4);
+    width: calc(100% / 2) !important;
+  }
+  img {
+    width: 100%;
   }
 }
 
@@ -146,6 +152,89 @@ img {
 .bg-light-pink {
   background: #ff008626;
 }
-a{
-  color: #020912D9;
+a {
+  color: #020912d9;
+}
+.img-border {
+  border-radius: 0px 50px;
+}
+.lookingFor {
+  .cards {
+    .cardItem {
+      .image {
+        z-index: -1;
+        position: relative;
+      }
+      width: 25vw;
+      .overlay {
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.233);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        &:hover {
+          opacity: 1;
+        }
+      }
+      .btn {
+        background: linear-gradient(92.07deg, #ff0086 0%, #4285f4 100%);
+        color: white;
+        width: 80%;
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .image {
+    z-index: -1;
+  }
+}
+
+.swiperTopModels {
+  .fadeOverlay {
+    background: linear-gradient(
+      180deg,
+      rgba(102, 102, 102, 0.5) 0%,
+      rgba(0, 0, 0, 0.5) 100%
+    );
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    min-height: 35%;
+  }
+}
+
+.Influencer-card {
+  .overlay {
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.0869) 0%,
+      rgba(0, 0, 0, 0.79) 57.71%
+    );
+    top: 0px;
+  }
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  .btn-gradient {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(92.07deg, #ff0086 0%, #4285f4 100%);
+    border-radius: 39px;
+  }
+  z-index: 2;
+  flex-direction: column;
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  top: 0px;
 }

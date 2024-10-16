@@ -78,12 +78,20 @@
 }
 
 .TopModels-image-card {
-  width: 14.2857142857%;
+  width: 20% !important;
+}
+@media (max-width: 992px) {
+  .TopModels-image-card {
+    width: 33.3333333333% !important;
+  }
 }
 @media (max-width: 449px) {
   .TopModels-image-card {
-    width: 25%;
+    width: 50% !important;
   }
+}
+.TopModels-image-card img {
+  width: 100%;
 }
 
 .bg-black {
@@ -173,4 +181,74 @@ img:hover {
 
 a {
   color: rgba(2, 9, 18, 0.8509803922);
+}
+
+.img-border {
+  border-radius: 0px 50px;
+}
+
+.lookingFor .cards .cardItem {
+  width: 25vw;
+}
+.lookingFor .cards .cardItem .image {
+  z-index: -1;
+  position: relative;
+}
+.lookingFor .cards .cardItem .overlay {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.233);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+.lookingFor .cards .cardItem .overlay:hover {
+  opacity: 1;
+}
+.lookingFor .cards .cardItem .btn {
+  background: linear-gradient(92.07deg, #ff0086 0%, #4285f4 100%);
+  color: white;
+  width: 80%;
+  font-size: 2rem;
+}
+.lookingFor .image {
+  z-index: -1;
+}
+
+.swiperTopModels .fadeOverlay {
+  background: linear-gradient(180deg, rgba(102, 102, 102, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  min-height: 35%;
+}
+
+.Influencer-card .overlay {
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.0869) 0%, rgba(0, 0, 0, 0.79) 57.71%);
+  top: 0px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 2;
+  flex-direction: column;
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  top: 0px;
+}
+.content .btn-gradient {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background: linear-gradient(92.07deg, #ff0086 0%, #4285f4 100%);
+  border-radius: 39px;
 }/*# sourceMappingURL=main.css.map */
