@@ -75,6 +75,40 @@
         </div>
       </div>
     </section>
+    <section class="bg-black py-5">
+      <div class="text-pink text-center" data-aos="fade-up">
+        High Rated Models
+      </div>
+      <h2 class="text-white text-center fw-bold" data-aos="fade-up">
+        Top Models
+      </h2>
+      <div class="d-flex flex-wrap py-3">
+        <div class="swiper swiperTopModels">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide TopModels-image-card "
+              v-for="(item, index) in HighRatedModels"
+              :key="index"
+            >
+              <div class="p-1">
+                <img :src="item.image" class="w-100 mb-2" alt="" />
+                <div
+                  class="test-center text-white text-center p-1 border-5 fw-bold fadeOverlay color-black d-flex flex-column justify-content-evenly"
+                >
+                  <div class="fw-bold">{{item.title}}</div>
+                  <div class="fw-light">Lorem ipsum dolor sit amet....</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="d-flex">
+        <button class="btn btn-pink rounded-pill px-4 py-2 mx-auto">
+          View All
+        </button>
+      </div>
+    </section>
 
     <!-- Footer Include -->
     <footer
